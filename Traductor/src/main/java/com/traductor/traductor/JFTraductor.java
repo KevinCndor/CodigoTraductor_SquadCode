@@ -33,6 +33,7 @@ public class JFTraductor extends javax.swing.JFrame {
         btnTraducir = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         txtaTraduccion = new javax.swing.JTextArea();
+        btnBorrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -58,6 +59,13 @@ public class JFTraductor extends javax.swing.JFrame {
         txtaTraduccion.setFocusable(false);
         jScrollPane1.setViewportView(txtaTraduccion);
 
+        btnBorrar.setText("Borrar");
+        btnBorrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBorrarActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout pnlTraductorLayout = new javax.swing.GroupLayout(pnlTraductor);
         pnlTraductor.setLayout(pnlTraductorLayout);
         pnlTraductorLayout.setHorizontalGroup(
@@ -75,6 +83,10 @@ public class JFTraductor extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnTraducir, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(19, 19, 19))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTraductorLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnBorrar)
+                .addGap(18, 18, 18))
         );
         pnlTraductorLayout.setVerticalGroup(
             pnlTraductorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -86,7 +98,9 @@ public class JFTraductor extends javax.swing.JFrame {
                     .addComponent(btnTraducir))
                 .addGap(28, 28, 28)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(btnBorrar)
+                .addContainerGap(8, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -102,8 +116,8 @@ public class JFTraductor extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(pnlTraductor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(pnlTraductor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -123,6 +137,12 @@ public class JFTraductor extends javax.swing.JFrame {
         int numero = Integer.parseInt(txtNumero.getText());
         txtaTraduccion.setText(t.traducir(numero));
     }//GEN-LAST:event_btnTraducirActionPerformed
+
+    private void btnBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBorrarActionPerformed
+        this.txtaTraduccion.setText("");
+        this.txtNumero.setText("");
+        this.txtNumero.requestFocus();
+    }//GEN-LAST:event_btnBorrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -160,6 +180,7 @@ public class JFTraductor extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnBorrar;
     private javax.swing.JButton btnTraducir;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblNumero;

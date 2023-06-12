@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Traductor.iml" filepath="$PROJECT_DIR$/.idea/Traductor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CodigoTraductor_SquadCode.iml" filepath="$PROJECT_DIR$/.idea/CodigoTraductor_SquadCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Traductor/Traductor.iml" filepath="$PROJECT_DIR$/Traductor/Traductor.iml" />
     </modules>
   </component>
 </project>

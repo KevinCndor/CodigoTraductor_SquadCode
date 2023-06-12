@@ -20,35 +20,77 @@ public class Traductor {
             return "Error";
         }
         if(numero > 1000 && numero % 1000 != 0){
-            numSep.add(numero / 1000);
+            if((numero / 1000) != 1){
+                numSep.add((int)(numero / 1000));
+            }
             numSep.add(1000);
-            numSep.add((numero % 1000) / 100);
-            numSep.add(100);
-            numSep.add((numero % 100) / 10);
-            numSep.add(10);
-            numSep.add(numero % 10);
+            if(((numero % 1000) / 100) != 0){
+                if(((numero % 1000) / 100) == 1){
+                    numSep.add(100);
+                }else{
+                    numSep.add((int)((numero % 1000) / 100));
+                    numSep.add(100);
+                }
+            }
+            if(((numero % 100) / 10) != 0){
+                if(((numero % 100) / 10) == 1){
+                    numSep.add(10);
+                }else{
+                    numSep.add((int)((numero % 100) / 10));
+                    numSep.add(10);
+                }
+            }
+            if(numero % 10 != 0){
+                numSep.add(numero % 10);
+            }
             i = 0;
+        // Reconocer los numeros terminados en 3 ceros (1000, 4000, ...)
+        } else if (numero >= 1000 && numero % 1000 == 0) {
+            if((numero / 1000) != 1){
+                numSep.add((numero / 1000));
+                numSep.add(1000);
+                i = 0;
+            }else{
+                numSep.add(1000);
+                i = 0;
+            }
         }
-        if(numero > 100 && numero < 1000){
-            numSep.add((numero % 1000) / 100);
+        if(numero >= 100 && numero < 1000){ // Poner >= no es la mejor solucion para que reconozca al 100 !!!
+            // No tomar en cuenta si el 1 esta al inicio
+            if((numero / 100) != 1){
+                numSep.add((int)(numero / 100));
+            }
             numSep.add(100);
-            numSep.add((numero % 100) / 10);
-            numSep.add(10);
-            numSep.add(numero % 10);
+            // Si hay un cero intermedio no considerarlo como una decena
+            if(((numero % 100) / 10) != 0){
+                if(((numero % 100) / 10) == 1){
+                    numSep.add(10);
+                }else{
+                    numSep.add((int)((numero % 100) / 10));
+                    numSep.add(10);
+                }
+            }
+            // Si hay un cero al final no considerarlo
+            if(numero % 10 != 0){
+                numSep.add(numero % 10);
+            }
             i = 1;
         }
         if(numero > 10 && numero < 100){
-            numSep.add(numero / 10);
+            // No tomar en cuenta si el 1 esta al inicio
+            if((numero / 10) != 1){
+                numSep.add((int)(numero / 10));
+            }
             numSep.add(10);
             numSep.add(numero % 10);
             i = 2;
         }
         for( Integer num: numSep){
-            if(num > 1 && i == 0){
+            if(num >= 1 && i == 0){ // Traducir correctamente los numeros terminados en 1 entre 1001-9999
                 resultado.append(verificar(num));
-            }else if(num > 1 && i == 1){
+            }else if(num >= 1 && i == 1){ // Traducir correctamente los numeros terminados en 1 entre 101-999
                 resultado.append(verificar(num));
-            }else if(num > 1 && i == 2){
+            }else if(num >= 1 && i == 2){ // Traducir correctamente los numeros terminados en 1 entre 11-99
                 resultado.append(verificar(num));
             }
         }
