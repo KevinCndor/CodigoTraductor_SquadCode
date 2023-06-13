@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CodigoTraductor_SquadCode.iml" filepath="$PROJECT_DIR$/.idea/CodigoTraductor_SquadCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Traductor/Traductor.iml" filepath="$PROJECT_DIR$/Traductor/Traductor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Traductor.iml" filepath="$PROJECT_DIR$/.idea/Traductor.iml" />
     </modules>
   </component>
 </project>
