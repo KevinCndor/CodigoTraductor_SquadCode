@@ -12,9 +12,9 @@ import java.util.List;
  * @author Kevin
  */
 public class Traductor {
+    StringBuilder resultado = new StringBuilder();
+    List<Integer> numSep = new ArrayList<>();
     public String traducir(int numero) {
-        StringBuilder resultado = new StringBuilder();
-        List<Integer> numSep = new ArrayList<>();
         if(numero > 9999){
             return "Error";
         }
