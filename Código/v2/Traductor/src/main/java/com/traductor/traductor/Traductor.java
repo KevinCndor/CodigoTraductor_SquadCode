@@ -23,15 +23,15 @@ public class Traductor {
         int verificarD = verificarDecimales(numero, numSep);
         for( Integer num: numSep){
             if(num >= 1 && verificarM == 0){ // Traducir correctamente los numeros terminados en 1 entre 1001-9999
-                resultado.append(verificar(num));
+                resultado.append(traducirNum(num));
             }else if(num >= 1 && verificarC == 1){ // Traducir correctamente los numeros terminados en 1 entre 101-999
-                resultado.append(verificar(num));
+                resultado.append(traducirNum(num));
             }else if(num >= 1 && verificarD == 2){ // Traducir correctamente los numeros terminados en 1 entre 11-99
-                resultado.append(verificar(num));
+                resultado.append(traducirNum(num));
             }
         }
         if(numero <= 10){
-            resultado.append(verificar(numero));
+            resultado.append(traducirNum(numero));
         }
         return resultado.toString();
     }
@@ -117,7 +117,7 @@ public class Traductor {
         return i;
     }
 
-    private String verificar(int num){
+    private String traducirNum(int num){
         String traduccion;
         switch (num) {
                 case 0 -> traduccion = "illak ";
