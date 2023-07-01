@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade9a937-4459-4f4a-a69f-b79a1d960d73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/main/java/com/traductor/traductor/JFTraductor.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/main/java/com/traductor/traductor/JFTraductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/main/java/com/traductor/traductor/Traductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/test/java/com/traductor/traductor/DebugTraductorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/test/java/com/traductor/traductor/TraductorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/Traductor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CodigoTraductor_SquadCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/CodigoTraductor_SquadCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Traductor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/Traductor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/src/main/java/com/traductor/traductor/JFTraductor.form" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/src/main/java/com/traductor/traductor/JFTraductor.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/src/main/java/com/traductor/traductor/JFTraductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/src/main/java/com/traductor/traductor/JFTraductor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/src/main/java/com/traductor/traductor/Traductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/src/main/java/com/traductor/traductor/Traductor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/src/test/java/com/traductor/traductor/DebugTraductorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/src/test/java/com/traductor/traductor/DebugTraductorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/src/test/java/com/traductor/traductor/TraductorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/src/test/java/com/traductor/traductor/TraductorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/JFTraductor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/target/classes/com/traductor/traductor/JFTraductor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Traductor/target/classes/com/traductor/traductor/Traductor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v1/Traductorv2/target/classes/com/traductor/traductor/Traductor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Código/v2/Traductor/src/main/java/com/traductor/traductor/Traductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/src/main/java/com/traductor/traductor/Traductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/JFTraductor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/Traductor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Código/v2/Traductor/target/classes/com/traductor/traductor/Traductor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IntelliJProjects/CodigoTraductor_SquadCode/Código/v2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IntelliJProjects/CodigoTraductor_SquadCode/Código/v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntelliJProjects\CodigoTraductor_SquadCode\Código\v2" />
@@ -93,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688226648748</updated>
       <workItem from="1688226653318" duration="5199000" />
+      <workItem from="1688234179304" duration="223000" />
     </task>
     <servers />
   </component>

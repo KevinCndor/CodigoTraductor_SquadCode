@@ -12,18 +12,21 @@ import java.util.List;
  * @author Kevin
  */
 public class Traductor {
-    List<Integer> numSep = new ArrayList<>();
     public String traducir(int numero) {
         StringBuilder resultado = new StringBuilder();
+        List<Integer> numSep = new ArrayList<>();
         if(numero > 9999){
             return "Error";
         }
+        int verificarM = verificarMiles(numero, numSep);
+        int verificarC = verificarCentenas(numero, numSep);
+        int verificarD = verificarDecimales(numero, numSep);
         for( Integer num: numSep){
-            if(num >= 1 && verificarMiles(numero, numSep) == 0){ // Traducir correctamente los numeros terminados en 1 entre 1001-9999
+            if(num >= 1 && verificarM == 0){ // Traducir correctamente los numeros terminados en 1 entre 1001-9999
                 resultado.append(verificar(num));
-            }else if(num >= 1 && verificarCentenas(numero, numSep) == 1){ // Traducir correctamente los numeros terminados en 1 entre 101-999
+            }else if(num >= 1 && verificarC == 1){ // Traducir correctamente los numeros terminados en 1 entre 101-999
                 resultado.append(verificar(num));
-            }else if(num >= 1 && verificarDecimales(numero, numSep) == 2){ // Traducir correctamente los numeros terminados en 1 entre 11-99
+            }else if(num >= 1 && verificarD == 2){ // Traducir correctamente los numeros terminados en 1 entre 11-99
                 resultado.append(verificar(num));
             }
         }
