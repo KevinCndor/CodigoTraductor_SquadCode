@@ -130,7 +130,6 @@ public class JFTraductor extends javax.swing.JFrame {
     }// </editor-fold>
 
     private void txtNumeroKeyTyped(java.awt.event.KeyEvent evt) {
-        // TODO add your handling code here:
         int key = evt.getKeyChar();
         boolean numeros = key >= 48 && key <= 57;
         if(!numeros){
@@ -139,7 +138,6 @@ public class JFTraductor extends javax.swing.JFrame {
     }
 
     private void btnTraducirActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         int numero = Integer.parseInt(txtNumero.getText());
         txtTraduccion.setText(t.traducir(numero));
     }
@@ -151,7 +149,6 @@ public class JFTraductor extends javax.swing.JFrame {
     }
 
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {
-        // TODO add your handling code here:
         System.exit(0);
     }
 
