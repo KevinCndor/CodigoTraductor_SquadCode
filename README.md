@@ -19,9 +19,13 @@ git clone https://github.com/KevinCndor/CodigoTraductor_SquadCode.git`
 4. Ingrese un número entero entre 0 y 9999 en el campo de texto y presione el botón "Traducir" y se mostrará su traducción en el idioma kichwa.
 
 ---
-<sub>**NOTA: El presente proyecto es de código abierto. Puede ser modificado y/o distribuido libremente. Sin embargo, el equipo de desarrollo no se hace responsable por el uso indebido del mismo.**</sub>
+<sub>
+**NOTA: El presente proyecto es de código abierto. Puede ser modificado y/o distribuido libremente. Sin embargo, el equipo de desarrollo no se hace responsable por el uso indebido del mismo.**
+</sub>
 
 ---
 
+<sub>
 ## Contacto
-Si tiene alguna duda o sugerencia, puede contactarse con el equipo de desarrollo mediante los siguientes correos electrónico: kevin.condor@epn.edu.ec, jean.villacis@epn.edu.ec, rafaela.robalino@epn.edu.ec, jackson.ramon@epn.edu.ec
+Si tiene alguna duda o sugerencia, puede contactarse con el equipo de desarrollo mediante los siguientes correos electrónicos: kevin.condor@epn.edu.ec, jean.villacis@epn.edu.ec, rafaela.robalino@epn.edu.ec, jackson.ramon@epn.edu.ec
+<sub>
