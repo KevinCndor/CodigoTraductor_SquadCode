@@ -25,7 +25,5 @@ git clone https://github.com/KevinCndor/CodigoTraductor_SquadCode.git`
 
 ---
 
-<sub>
 ## Contacto
-Si tiene alguna duda o sugerencia, puede contactarse con el equipo de desarrollo mediante los siguientes correos electrónicos: kevin.condor@epn.edu.ec, jean.villacis@epn.edu.ec, rafaela.robalino@epn.edu.ec, jackson.ramon@epn.edu.ec
-<sub>
+Si tiene alguna duda o sugerencia, puede contactarse con el equipo de desarrollo mediante los siguientes correos electrónicos: kevin.condor@epn.edu.ec, jean.villacis@epn.edu.ec, rafaela.robalino@epn.edu.ec, jackson.ramon@epn.edu.ec.
