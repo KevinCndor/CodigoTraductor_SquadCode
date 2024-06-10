@@ -16,6 +16,7 @@ public class JFTraductor extends javax.swing.JFrame {
      */
     public JFTraductor() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
